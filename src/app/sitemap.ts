@@ -1,5 +1,7 @@
 import type { MetadataRoute } from "next";
 
+export const dynamic = "force-static";
+
 const routes = [
   "",
   "about",
@@ -17,6 +19,7 @@ const routes = [
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = "https://nexorasolutions.com";
+
   return routes.map((route) => ({
     url: route ? `${base}/${route}/` : `${base}/`,
     lastModified: new Date(),
