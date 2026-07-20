@@ -1,0 +1,14 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Nexora Solutions logo">
+  <defs>
+    <linearGradient id="nexoraGrad" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="nexoraGradSoft" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2563EB" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#06B6D4" stop-opacity="0.15"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="39" height="39" rx="11.5" fill="url(#nexoraGradSoft)" stroke="url(#nexoraGrad)" stroke-opacity="0.25"/>
+  <path d="M12.5 28V12M12.5 12L27.5 28M27.5 28V12" stroke="url(#nexoraGrad)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
